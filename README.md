@@ -40,7 +40,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/event-registration-form.git
+    git clone https://github.com/BhuvneshwarTyagi/Level1-form.git
     cd event-registration-form
     ```
 
@@ -55,7 +55,7 @@ Follow these instructions to get a copy of the project up and running on your lo
     ```
 
 4. **Open the application**:
-    Open your browser and navigate to `http://localhost:3000`.
+    Open your browser and navigate to `http://localhost:5173/`.
 
 ## Usage
 
@@ -70,10 +70,8 @@ event-registration-form/
 │   └── index.html
 │
 ├── src/
-│   ├── components/
-│   │   └── EventRegistrationForm.js
-│   ├── App.js
-│   ├── index.js
+│   ├── Level1Form.js
+│   ├── main.jsx
 │   └── index.css
 │
 ├── .gitignore
