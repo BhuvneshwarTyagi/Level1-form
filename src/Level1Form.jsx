@@ -42,7 +42,7 @@ const EventRegistrationForm = () => {
   };
 
   return (
-    <div className="w-screen h-screen flex items-center justify-center bg-blue-400">
+    <div className="w-screen h-screen flex items-center justify-center bg-blue-400 text-black">
       <form onSubmit={handleSubmit} className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
         <div className="mb-4">
           <label className="block mb-2">Name:</label>
