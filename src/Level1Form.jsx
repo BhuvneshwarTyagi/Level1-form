@@ -51,7 +51,7 @@ const EventRegistrationForm = () => {
             name="name"
             value={formData.name}
             onChange={handleChange}
-            className="w-full p-2 border rounded-lg"
+            className="w-full p-2 border rounded-lg bg-white"
           />
           {errors.name && <p className="text-red-500 text-sm">{errors.name}</p>}
         </div>
@@ -63,7 +63,7 @@ const EventRegistrationForm = () => {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            className="w-full p-2 border rounded-lg"
+            className="w-full p-2 border rounded-lg bg-white"
           />
           {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
         </div>
@@ -75,7 +75,7 @@ const EventRegistrationForm = () => {
             name="age"
             value={formData.age}
             onChange={handleChange}
-            className="w-full p-2 border rounded-lg"
+            className="w-full p-2 border rounded-lg bg-white"
           />
           {errors.age && <p className="text-red-500 text-sm">{errors.age}</p>}
         </div>
@@ -98,7 +98,7 @@ const EventRegistrationForm = () => {
               name="guestName"
               value={formData.guestName}
               onChange={handleChange}
-              className="w-full p-2 border rounded-lg"
+              className="w-full p-2 border rounded-lg bg-white"
             />
             {errors.guestName && <p className="text-red-500 text-sm">{errors.guestName}</p>}
           </div>
